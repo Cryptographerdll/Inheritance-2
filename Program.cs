@@ -13,7 +13,7 @@ namespace Inheritance_Concept
             Employee ep__ = new PartTimeEmployee("emma", "emma@gmail.com", 7, 20000F);
 
             baseClass e = new Agent("Emma","4");
-           ((Agent)e).DisplayNom();
+           ((Agent)e).DisplayNom(); // Casting to Agent Method 
         }
     }
 
